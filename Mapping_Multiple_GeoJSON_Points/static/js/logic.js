@@ -16,7 +16,7 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
 
 let baseMaps = {
     Streets: streets,
-    DarK: dark
+    Dark: dark
 };
 
 //// Create the map object with center and zoom level.
@@ -40,4 +40,3 @@ d3.json(airportData).then(function(data){
     // Creating a Geo JSN layer with the retrieved data
     L.geoJSON(data).addTo(map);
 });
-
